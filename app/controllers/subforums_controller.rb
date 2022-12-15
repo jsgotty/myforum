@@ -29,5 +29,4 @@ class SubforumsController < ApplicationController
         params.require(:subforum).permit(:name)
     end
 
-
 end
